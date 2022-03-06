@@ -7,6 +7,12 @@
 | Hello World! | [Exercise](exercises/hello_world/hello_world.md) | [Solution](solutions/hello_world/hello_world.md) | |
 | 22 times | [Exercise](exercises/hello_world/22_times.md) | [Solution](solutions/hello_world/22_times.md) | |
 
+## Loops
+
+|Name|Objective & Instructions|Solution|Comments|
+|--------|--------|------|----|
+| Refactor-1 | [Exercise](exercises/loops/refactor_1.md) | [Solution](solutions/loops/refactor_1.py) | |
+
 ## Functions
 
 |Name|Objective & Instructions|Solution|Comments|
