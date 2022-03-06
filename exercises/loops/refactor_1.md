@@ -5,10 +5,10 @@ Refactor the following code
 ```python
 from collections import namedtuple
 
-Mushroom = collections.nametuple('Mushroom', ['name', 'poisonous'])
+Mushroom = namedtuple('Mushroom', ['name', 'poisonous'])
 
-mushrooms = [Mushroom('Portabello', false), Mushroom('Oyster', false),
-             Mushroom('Death Cap', true)]
+mushrooms = [Mushroom('Portabello', False), Mushroom('Oyster', False),
+             Mushroom('Death Cap', True)]
 i = 0
 
 for mushroom in mushrooms:

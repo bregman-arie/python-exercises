@@ -4,8 +4,17 @@
 
 |Name|Objective & Instructions|Solution|Comments|
 |--------|--------|------|----|
-| Hello World! | [Exercise](exercises/hello_world/hello_world.md) | [Solution](solutions/hello_world/hello_world.md) | |
-| 22 times | [Exercise](exercises/hello_world/22_times.md) | [Solution](solutions/hello_world/22_times.md) | |
+| Hello World! | [Exercise](exercises/hello_world/hello_world.md) | | |
+| 22 times | [Exercise](exercises/hello_world/22_times.md) | | |
+| Length | [Exercise](exercises/hello_world/length.md) | | |
+
+## Data Types
+
+|Name|Objective & Instructions|Solution|Comments|
+|--------|--------|------|----|
+| Data Types? I know a few | [Exercise](exercises/data_types/I_know_a_few.md) | [Solution](solutions/exceptions/I_know_a_few.md) | |
+| Choose a Data Type - level 1 | [Exercise](exercises/data_types/choose_datatype_level_1.md) | [Solution](solutions/data_types/choose_datatype_level_1.md) | |
+| Choose a Data Type - level 2 | [Exercise](exercises/data_types/choose_datatype_level_2.md) | [Solution](solutions/data_types/choose_datatype_level_2.md) | |
 
 ## Loops
 
@@ -31,3 +40,17 @@
 |Name|Objective & Instructions|Solution|Comments|
 |--------|--------|------|----|
 | Dividing by Zero | [Exercise](exercises/exceptions/divide_by_zero.md) | [Solution](solutions/exceptions/divide_by_zero.md) | |
+
+## Files
+
+|Name|Objective & Instructions|Solution|Comments|
+|--------|--------|------|----|
+| Read a File | [Exercise](exercises/files/read_file.md) | | |
+
+## Operating Systems
+
+|Name|Objective & Instructions|Solution|Comments|
+|--------|--------|------|----|
+| File exists | [Exercise](exercises/os/file_exists.md) | | |
+| Print all the files in a directory | [Exercise](exercises/os/print_all_files_in_dir.md) | | |
+
