@@ -1,3 +1,5 @@
+<p align="center"><img src="images/python_exercises.png"/></p>
+
 # Python Exercises
 
 ## Hello World
@@ -6,6 +8,7 @@
 |--------|--------|------|----|
 | Hello World! | [Exercise](exercises/hello_world/hello_world.md) | | |
 | 22 times | [Exercise](exercises/hello_world/22_times.md) | | |
+| Access List Items | [Exercise](exercises/hello_world/access_list_items.md) | [Solution](solutions/hello_world/access_list_items.md) | |
 | Length | [Exercise](exercises/hello_world/length.md) | | |
 
 ## Data Types
@@ -15,6 +18,7 @@
 | Data Types? I know a few | [Exercise](exercises/data_types/I_know_a_few.md) | [Solution](solutions/exceptions/I_know_a_few.md) | |
 | Choose a Data Type - level 1 | [Exercise](exercises/data_types/choose_datatype_level_1.md) | [Solution](solutions/data_types/choose_datatype_level_1.md) | |
 | Choose a Data Type - level 2 | [Exercise](exercises/data_types/choose_datatype_level_2.md) | [Solution](solutions/data_types/choose_datatype_level_2.md) | |
+| Objects 101 | [Exercise](exercises/data_types/objects_101.md) | [Solution](solutions/data_types/objects_101.md) | |
 
 ## Loops
 
@@ -27,6 +31,12 @@
 |Name|Objective & Instructions|Solution|Comments|
 |--------|--------|------|----|
 | Calculator | [Exercise](exercises/functions/calculator.md) | [Solution](solutions/functions/calculator.md) | |
+ 
+## Magic Methods
+
+|Name|Objective & Instructions|Solution|Comments|
+|--------|--------|------|----|
+| Length Magic Method | [Exercise](exercises/magic_methods/length.md) | | |
 
 ## Unit Testing
 
@@ -54,3 +64,9 @@
 | File exists | [Exercise](exercises/os/file_exists.md) | | |
 | Print all the files in a directory | [Exercise](exercises/os/print_all_files_in_dir.md) | | |
 
+## Misc
+
+|Name|Objective & Instructions|Solution|Comments|
+|--------|--------|------|----|
+| Random Number | [Exercise](exercises/misc/random_number.md) | | |
+| Random Item | [Exercise](exercises/misc/random_item.md) | | |
