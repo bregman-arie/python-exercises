@@ -7,18 +7,46 @@
 |Name|Objective & Instructions|Solution|Comments|
 |--------|--------|------|----|
 | Hello World! | [Exercise](exercises/hello_world/hello_world.md) | | |
-| 22 times | [Exercise](exercises/hello_world/22_times.md) | | |
-| Access List Items | [Exercise](exercises/hello_world/access_list_items.md) | [Solution](solutions/hello_world/access_list_items.md) | |
-| Length | [Exercise](exercises/hello_world/length.md) | | |
+| Python Characteristics | [Exercise](exercises/hello_world/python_characteristics.md) | [Solution](solutions/hello_world/python_characteristics.md) | |
+| What is the result? - Level 1 | [Exercise](exercises/hello_world/what_is_the_result_lvl_1.md) | [Solution](solutions/hello_world/what_is_the_result_lvl_1.md) | |
+| What is the result? - Level 2 | [Exercise](exercises/hello_world/what_is_the_result_lvl_2.md) | | |
 
-## Data Types
+## Objects & Data Types
 
 |Name|Objective & Instructions|Solution|Comments|
 |--------|--------|------|----|
+| Objects 101 | [Exercise](exercises/data_types/objects_101.md) | [Solution](solutions/data_types/objects_101.md) | |
 | Data Types? I know a few | [Exercise](exercises/data_types/I_know_a_few.md) | [Solution](solutions/exceptions/I_know_a_few.md) | |
 | Choose a Data Type - level 1 | [Exercise](exercises/data_types/choose_datatype_level_1.md) | [Solution](solutions/data_types/choose_datatype_level_1.md) | |
 | Choose a Data Type - level 2 | [Exercise](exercises/data_types/choose_datatype_level_2.md) | [Solution](solutions/data_types/choose_datatype_level_2.md) | |
-| Objects 101 | [Exercise](exercises/data_types/objects_101.md) | [Solution](solutions/data_types/objects_101.md) | |
+| Mutability | [Exercise](exercises/data_types/mutability.md) | [Solution](solutions/data_types/mutability.md) | |
+| Strongly Typed | [Exercise](exercises/data_types/strongly_typed.md) | [Solution](solutions/data_types/strongly_typed.md) | |
+
+## Variables
+
+|Name|Objective & Instructions|Solution|Comments|
+|--------|--------|------|----|
+| Valid Names | [Exercise](exercises/variables/valid_names.md) | [Solution](solutions/variables/valid_names.md) | |
+
+## Booleans
+
+|Name|Objective & Instructions|Solution|Comments|
+|--------|--------|------|----|
+| True or False? | [Exercise](exercises/booleans/true_or_false.md) | [Solution](solutions/booleans/true_or_false.md) | |
+
+## Strings
+
+|Name|Objective & Instructions|Solution|Comments|
+|--------|--------|------|----|
+| 22 times | [Exercise](exercises/hello_world/22_times.md) | | |
+
+## Lists
+
+|Name|Objective & Instructions|Solution|Comments|
+|--------|--------|------|----|
+| Access List Items | [Exercise](exercises/hello_world/access_list_items.md) | [Solution](solutions/hello_world/access_list_items.md) | |
+| Equal Lists | [Exercise](exercises/lists/equal_lists.md) | [Solution](solutions/lists/equal_lists.md) | |
+| Length | [Exercise](exercises/hello_world/length.md) | | |
 
 ## Loops
 
@@ -50,6 +78,7 @@
 |Name|Objective & Instructions|Solution|Comments|
 |--------|--------|------|----|
 | Dividing by Zero | [Exercise](exercises/exceptions/divide_by_zero.md) | [Solution](solutions/exceptions/divide_by_zero.md) | |
+| What exception is raised? | [Exercise](exercises/exceptions/what_exception_is_raised.md) | [Solution](solutions/exceptions/what_exception_is_raised.md) | |
 
 ## Files
 
