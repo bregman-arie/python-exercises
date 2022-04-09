@@ -39,9 +39,18 @@
 |Name|Objective & Instructions|Solution|Comments|
 |--------|--------|------|----|
 | 22 times | [Exercise](exercises/hello_world/22_times.md) | | |
+| What is the result? | [Exercise](exercises/strings/what_is_the_result.md) | [Solution](solutions/strings/what_is_the_result.md) | |
 | Starts with a letter | [Exercise](exercises/strings/letter_start.md) | [Solution](solutions/strings/letter_start.md) | |
 | All Digits | [Exercise](exercises/strings/all_digits.md) | [Solution](solutions/strings/all_digits.md) | |
 | Removing Characters | [Exercise](exercises/strings/removing_characters.md) | [Solution](solutions/strings/removing_characters.md) | |
+| Reverse a String | [Exercise](exercises/strings/reverse_string.md) | [Solution](solutions/strings/reverse_string.md) | |
+| Compress Strings | [Exercise](exercises/strings/compress_strings.md) | | |
+
+## Numbers
+
+|Name|Objective & Instructions|Solution|Comments|
+|--------|--------|------|----|
+| Palindrome | [Exercise](exercises/numbers/palindrome.md) | [Solution](solutions/numbers/palindrome.md) | |
 
 ## Lists
 
@@ -50,6 +59,9 @@
 | Access List Items | [Exercise](exercises/hello_world/access_list_items.md) | [Solution](solutions/hello_world/access_list_items.md) | |
 | Equal Lists | [Exercise](exercises/lists/equal_lists.md) | [Solution](solutions/lists/equal_lists.md) | |
 | Length | [Exercise](exercises/hello_world/length.md) | | |
+| Min Max | [Exercise](exercises/lists/min_max.md) | [Solution](solutions/lists/min_max.md) | |
+| Three Biggest Items | [Exercise](exercises/lists/three_biggest_items.md) | [Solution](solutions/lists/three_biggest_items.md) | |
+| What is the result? | [Exercise](exercises/lists/what_is_the_result.md) | [Solution](solutions/lists/what_is_the_result.md) | |
 
 ## Loops
 
@@ -61,7 +73,9 @@
 
 |Name|Objective & Instructions|Solution|Comments|
 |--------|--------|------|----|
+| My First Function | [Exercise](exercises/functions/my_first_function.md) | [Solution](solutions/functions/my_first_function.md) | |
 | Calculator | [Exercise](exercises/functions/calculator.md) | [Solution](solutions/functions/calculator.md) | |
+| First Class Objects | [Exercise](exercises/functions/first_class_objects.md) | [Solution](solutions/functions/first_class_objects.md) | |
  
 ## Magic Methods
 
@@ -103,6 +117,12 @@
 |--------|--------|------|----|
 | File exists | [Exercise](exercises/os/file_exists.md) | | |
 | Print all the files in a directory | [Exercise](exercises/os/print_all_files_in_dir.md) | | |
+
+## Improve the Code
+
+|Name|Objective & Instructions|Solution|Comments|
+|--------|--------|------|----|
+| Vowel Letters | [Exercise](exercises/improve_the_code/vowel_letters.md) | [Solution](solutions/improve_the_code/vowel_letters.md) | |
 
 ## Misc
 
