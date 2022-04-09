@@ -39,6 +39,9 @@
 |Name|Objective & Instructions|Solution|Comments|
 |--------|--------|------|----|
 | 22 times | [Exercise](exercises/hello_world/22_times.md) | | |
+| Starts with a letter | [Exercise](exercises/strings/letter_start.md) | [Solution](solutions/strings/letter_start.md) | |
+| All Digits | [Exercise](exercises/strings/all_digits.md) | [Solution](solutions/strings/all_digits.md) | |
+| Removing Characters | [Exercise](exercises/strings/removing_characters.md) | [Solution](solutions/strings/removing_characters.md) | |
 
 ## Lists
 
@@ -80,11 +83,19 @@
 | Dividing by Zero | [Exercise](exercises/exceptions/divide_by_zero.md) | [Solution](solutions/exceptions/divide_by_zero.md) | |
 | What exception is raised? | [Exercise](exercises/exceptions/what_exception_is_raised.md) | [Solution](solutions/exceptions/what_exception_is_raised.md) | |
 
+## Regex
+
+|Name|Objective & Instructions|Solution|Comments|
+|--------|--------|------|----|
+| Substitute Strings | [Exercise](exercises/regex/substitute_strings.md) | [Solution](solutions/exceptions/substitute_strings.md) | |
+
 ## Files
 
 |Name|Objective & Instructions|Solution|Comments|
 |--------|--------|------|----|
 | Read a File | [Exercise](exercises/files/read_file.md) | | |
+| Reverse a file | [Exercise](exercises/files/reverse_file.md) | | |
+| Print specific line | [Exercise](exercises/files/print_specific_line.md) | | |
 
 ## Operating Systems
 

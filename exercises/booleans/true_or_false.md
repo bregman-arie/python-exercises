@@ -8,3 +8,4 @@ What is the result of each of the following statements?
 4. `bool(0)`
 5. `bool()`
 6. `bool("  ")`
+7. `True-True`
