@@ -27,6 +27,8 @@
 |Name|Objective & Instructions|Solution|Comments|
 |--------|--------|------|----|
 | Valid Names | [Exercise](exercises/variables/valid_names.md) | [Solution](solutions/variables/valid_names.md) | |
+| Locations or Names | [Exercise](exercises/variables/locations_or_names.md) | [Solution](solutions/variables/locations_or_names.md) | |
+| Types | [Exercise](exercises/variables/types.md) | [Solution](solutions/variables/types.md) | |
 
 ## Booleans
 
@@ -76,6 +78,18 @@
 | My First Function | [Exercise](exercises/functions/my_first_function.md) | [Solution](solutions/functions/my_first_function.md) | |
 | Calculator | [Exercise](exercises/functions/calculator.md) | [Solution](solutions/functions/calculator.md) | |
 | First Class Objects | [Exercise](exercises/functions/first_class_objects.md) | [Solution](solutions/functions/first_class_objects.md) | |
+
+## OOP
+
+|Name|Objective & Instructions|Solution|Comments|
+|--------|--------|------|----|
+| Inheritance | [Exercise](exercises/oop/inheritance.md) | [Solution](solutions/oop/inheritance.md) | |
+
+## Classes
+
+|Name|Objective & Instructions|Solution|Comments|
+|--------|--------|------|----|
+| Attributes | [Exercise](exercises/classes/attributes.md) | [Solution](solutions/classes/attributes.md) | |
  
 ## Magic Methods
 
