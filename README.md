@@ -2,7 +2,7 @@
 
 :information_source: &nbsp;This repo contains questions and exercises to learn and practice Python
 
-:bar_chart: &nbsp;There are currently **49** exercises and questions
+:bar_chart: &nbsp;There are currently **53** exercises and questions
 
 # Python Exercises
 
@@ -35,6 +35,8 @@
 | Locations or Names | [Exercise](exercises/variables/locations_or_names.md) | [Solution](solutions/variables/locations_or_names.md) | |
 | Types | [Exercise](exercises/variables/types.md) | [Solution](solutions/variables/types.md) | |
 | Multiple Value Assignment | [Exercise](exercises/variables/multiple_value_assigment.md) | [Solution](solutions/variables/multiple_value_assigment.md) | |
+| Copying Variables | [Exercise](exercises/variables/copying_variables.md) | [Solution](solutions/variables/copying_variables.md) | |
+| Mutable Objects | [Exercise](exercises/variables/mutable_objects.md) | [Solution](solutions/variables/mutable_objects.md) | |
 
 ## Booleans
 
@@ -58,6 +60,7 @@
 
 |Name|Objective & Instructions|Solution|Comments|
 |--------|--------|------|----|
+| What is the result? | [Exercise](exercises/numbers/what_is_the_result.md) | [Solution](solutions/numbers/what_is_the_result.md) | |
 | Palindrome | [Exercise](exercises/numbers/palindrome.md) | [Solution](solutions/numbers/palindrome.md) | |
 
 ## Lists
