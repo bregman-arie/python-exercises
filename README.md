@@ -1,5 +1,9 @@
 <p align="center"><img src="images/python_exercises.png"/></p>
 
+:information_source: &nbsp;This repo contains questions and exercises to learn and practice Python
+
+:bar_chart: &nbsp;There are currently **49** exercises and questions
+
 # Python Exercises
 
 ## Hello World
@@ -21,6 +25,7 @@
 | Choose a Data Type - level 2 | [Exercise](exercises/data_types/choose_datatype_level_2.md) | [Solution](solutions/data_types/choose_datatype_level_2.md) | |
 | Mutability | [Exercise](exercises/data_types/mutability.md) | [Solution](solutions/data_types/mutability.md) | |
 | Strongly Typed | [Exercise](exercises/data_types/strongly_typed.md) | [Solution](solutions/data_types/strongly_typed.md) | |
+| Object Creation | [Exercise](exercises/data_types/object_creation.md) | [Solution](solutions/data_types/object_creation.md) | |
 
 ## Variables
 
@@ -29,6 +34,7 @@
 | Valid Names | [Exercise](exercises/variables/valid_names.md) | [Solution](solutions/variables/valid_names.md) | |
 | Locations or Names | [Exercise](exercises/variables/locations_or_names.md) | [Solution](solutions/variables/locations_or_names.md) | |
 | Types | [Exercise](exercises/variables/types.md) | [Solution](solutions/variables/types.md) | |
+| Multiple Value Assignment | [Exercise](exercises/variables/multiple_value_assigment.md) | [Solution](solutions/variables/multiple_value_assigment.md) | |
 
 ## Booleans
 

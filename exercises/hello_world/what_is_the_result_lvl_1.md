@@ -6,3 +6,5 @@
   * `1 == 1`
   * `4 < 1`
   * `'two' > 1`
+
+Click here for the [solution](solutions/hello_world/what_is_the_result_lvl_1.md)
