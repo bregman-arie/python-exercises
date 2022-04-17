@@ -2,7 +2,7 @@
 
 :information_source: &nbsp;This repo contains questions and exercises to learn and practice Python
 
-:bar_chart: &nbsp;There are currently **53** exercises and questions
+:bar_chart: &nbsp;There are currently **60** exercises and questions
 
 # Python Exercises
 
@@ -43,13 +43,15 @@
 |Name|Objective & Instructions|Solution|Comments|
 |--------|--------|------|----|
 | True or False? | [Exercise](exercises/booleans/true_or_false.md) | [Solution](solutions/booleans/true_or_false.md) | |
+| Conversion | [Exercise](exercises/booleans/conversion.md) | [Solution](solutions/booleans/conversion.md) | |
 
 ## Strings
 
 |Name|Objective & Instructions|Solution|Comments|
 |--------|--------|------|----|
 | 22 times | [Exercise](exercises/hello_world/22_times.md) | | |
-| What is the result? | [Exercise](exercises/strings/what_is_the_result.md) | [Solution](solutions/strings/what_is_the_result.md) | |
+| What is the result? - Level 1 | [Exercise](exercises/strings/what_is_the_result_lvl_1.md) | [Solution](solutions/strings/what_is_the_result_lvl_1.md) | |
+| What is the result? - Level 2 | [Exercise](exercises/strings/what_is_the_result_lvl_2.md) | [Solution](solutions/strings/what_is_the_result_lvl_2.md) | |
 | Starts with a letter | [Exercise](exercises/strings/letter_start.md) | [Solution](solutions/strings/letter_start.md) | |
 | All Digits | [Exercise](exercises/strings/all_digits.md) | [Solution](solutions/strings/all_digits.md) | |
 | Removing Characters | [Exercise](exercises/strings/removing_characters.md) | [Solution](solutions/strings/removing_characters.md) | |
@@ -61,6 +63,9 @@
 |Name|Objective & Instructions|Solution|Comments|
 |--------|--------|------|----|
 | What is the result? | [Exercise](exercises/numbers/what_is_the_result.md) | [Solution](solutions/numbers/what_is_the_result.md) | |
+| Operations - Level 1 | [Exercise](exercises/numbers/operations_lvl_1.md) | [Solution](solutions/numbers/operations_lvl_1.md) | |
+| Operations - Level 2 | [Exercise](exercises/numbers/operations_lvl_2.md) | [Solution](solutions/numbers/operations_lvl_2.md) | |
+| Bases | [Exercise](exercises/numbers/bases.md) | [Solution](solutions/numbers/bases.md) | |
 | Palindrome | [Exercise](exercises/numbers/palindrome.md) | [Solution](solutions/numbers/palindrome.md) | |
 
 ## Lists
@@ -145,6 +150,8 @@
 
 |Name|Objective & Instructions|Solution|Comments|
 |--------|--------|------|----|
+| If True | [Exercise](exercises/improve_the_code/if_true.md) | [Solution](solutions/improve_the_code/if_true.md) | |
+| Walrus | [Exercise](exercises/improve_the_code/walrus.md) | [Solution](solutions/improve_the_code/walrus.md) | |
 | Vowel Letters | [Exercise](exercises/improve_the_code/vowel_letters.md) | [Solution](solutions/improve_the_code/vowel_letters.md) | |
 
 ## Misc
