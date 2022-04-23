@@ -2,7 +2,7 @@
 
 :information_source: &nbsp;This repo contains questions and exercises to learn and practice Python
 
-:bar_chart: &nbsp;There are currently **60** exercises and questions
+:bar_chart: &nbsp;There are currently **70** exercises and questions
 
 # Python Exercises
 
@@ -50,13 +50,17 @@
 |Name|Objective & Instructions|Solution|Comments|
 |--------|--------|------|----|
 | 22 times | [Exercise](exercises/hello_world/22_times.md) | | |
+| Variables | [Exercise](exercises/strings/variables.md) | [Solution](solutions/strings/variables.md) | |
 | What is the result? - Level 1 | [Exercise](exercises/strings/what_is_the_result_lvl_1.md) | [Solution](solutions/strings/what_is_the_result_lvl_1.md) | |
 | What is the result? - Level 2 | [Exercise](exercises/strings/what_is_the_result_lvl_2.md) | [Solution](solutions/strings/what_is_the_result_lvl_2.md) | |
 | Starts with a letter | [Exercise](exercises/strings/letter_start.md) | [Solution](solutions/strings/letter_start.md) | |
+| Change Strings | [Exercise](exercises/strings/change_strings.md) | [Solution](solutions/strings/change_strings.md) | |
 | All Digits | [Exercise](exercises/strings/all_digits.md) | [Solution](solutions/strings/all_digits.md) | |
 | Removing Characters | [Exercise](exercises/strings/removing_characters.md) | [Solution](solutions/strings/removing_characters.md) | |
 | Reverse a String | [Exercise](exercises/strings/reverse_string.md) | [Solution](solutions/strings/reverse_string.md) | |
 | Compress Strings | [Exercise](exercises/strings/compress_strings.md) | | |
+| Slicing - Level 1 | [Exercise](exercises/strings/slicing_lvl_1.md) | [Solution](solutions/strings/slicing_lvl_1.md) | |
+| Slicing - Level 2 | [Exercise](exercises/strings/slicing_lvl_2.md) | [Solution](solutions/strings/slicing_lvl_2.md) | |
 
 ## Numbers
 
@@ -68,7 +72,7 @@
 | Bases | [Exercise](exercises/numbers/bases.md) | [Solution](solutions/numbers/bases.md) | |
 | Palindrome | [Exercise](exercises/numbers/palindrome.md) | [Solution](solutions/numbers/palindrome.md) | |
 
-## Lists
+## Lists & Tuples
 
 |Name|Objective & Instructions|Solution|Comments|
 |--------|--------|------|----|
@@ -77,12 +81,17 @@
 | Length | [Exercise](exercises/hello_world/length.md) | | |
 | Min Max | [Exercise](exercises/lists/min_max.md) | [Solution](solutions/lists/min_max.md) | |
 | Three Biggest Items | [Exercise](exercises/lists/three_biggest_items.md) | [Solution](solutions/lists/three_biggest_items.md) | |
-| What is the result? | [Exercise](exercises/lists/what_is_the_result.md) | [Solution](solutions/lists/what_is_the_result.md) | |
+| What is the result? - Level 1 | [Exercise](exercises/lists/what_is_the_result_lvl_1.md) | [Solution](solutions/lists/what_is_the_result_lvl_1.md) | |
+| What is the result? - Level 2 | [Exercise](exercises/lists/what_is_the_result_lvl_2.md) | [Solution](solutions/lists/what_is_the_result_lvl_2.md) | |
 
 ## Loops
 
 |Name|Objective & Instructions|Solution|Comments|
 |--------|--------|------|----|
+| Break Out | [Exercise](exercises/loops/break_out.md) | [Solution](solutions/loops/break_out.md) | |
+| Break Out 2 | [Exercise](exercises/loops/break_out.md) | [Solution](solutions/loops/break_out.md) | |
+| Every character | [Exercise](exercises/loops/every_char.md) | [Solution](solutions/loops/every_char.md) | |
+| Stream of Numbers | [Exercise](exercises/loops/numbers_stream.md) | [Solution](solutions/loops/numbers_stream.md) | |
 | Refactor-1 | [Exercise](exercises/loops/refactor_1.md) | [Solution](solutions/loops/refactor_1.py) | |
 
 ## Functions
@@ -123,7 +132,8 @@
 |Name|Objective & Instructions|Solution|Comments|
 |--------|--------|------|----|
 | Dividing by Zero | [Exercise](exercises/exceptions/divide_by_zero.md) | [Solution](solutions/exceptions/divide_by_zero.md) | |
-| What exception is raised? | [Exercise](exercises/exceptions/what_exception_is_raised.md) | [Solution](solutions/exceptions/what_exception_is_raised.md) | |
+| What exception is raised? - Level 1 | [Exercise](exercises/exceptions/what_exception_is_raised_lvl_1.md) | [Solution](solutions/exceptions/what_exception_is_raised_lvl_1.md) | |
+| What exception is raised? - Level 2 | [Exercise](exercises/exceptions/what_exception_is_raised_lvl_2.md) | [Solution](solutions/exceptions/what_exception_is_raised_lvl_2.md) | |
 
 ## Regex
 

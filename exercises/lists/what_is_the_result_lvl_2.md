@@ -1,4 +1,4 @@
-## What is the result?
+## What is the result? - Level 2
 
 1. What is the result of the following block of code?
 
@@ -12,8 +12,4 @@ for i in x:
 
 ### Solution
 
-```
-a
-b
-c
-```
+Click [here](solutions/lists//what_is_the_result_lvl_2.md) to view the solution.

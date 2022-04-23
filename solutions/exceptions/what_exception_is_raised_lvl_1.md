@@ -1,4 +1,4 @@
-## What Exception is Raised?
+## What Exception is Raised? - Level 1
 
 For each of the following statement, specify what exception will be raised
 
@@ -8,4 +8,6 @@ For each of the following statement, specify what exception will be raised
 
 ### Solution
 
-Click [here](solutions/exceptions/what_exception_is_raised.md) to view the solution.
+1. TypeError
+2. NameError
+3. IndexError
