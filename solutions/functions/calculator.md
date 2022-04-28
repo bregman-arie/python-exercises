@@ -12,7 +12,7 @@ Write four functions:
 1. Adds the first number to the second one and returns the result
 
 ```python
-def add(x, y)
+def add(x, y):
     """Add numbers"""
     return x + y
 ```
@@ -20,7 +20,7 @@ def add(x, y)
 2. Subtracts the second number from the first number and returns the result
 
 ```python
-def subtract(x, y)
+def subtract(x, y):
     """Subtract numbers"""
     return x - y
 ```
@@ -28,7 +28,7 @@ def subtract(x, y)
 3. Multiplies first number by the second number
 
 ```python
-def multiply(x, y)
+def multiply(x, y):
     """Multiply numbers"""
     return x * y
 ```
@@ -36,7 +36,7 @@ def multiply(x, y)
 4. Divides first number by the second number and returns the result
 
 ```python
-def divide(x, y)
+def divide(x, y):
     """Divide numbers"""
     if y == 0:
         raise ValueError('Can not divide by zero!')
