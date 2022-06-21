@@ -9,5 +9,5 @@ filename = "python-exercises.txt"
 
 with open(filename) as f:
     content = f.read()
-    print (content)
+    print(content)
 ```
