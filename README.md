@@ -2,7 +2,7 @@
 
 :information_source: &nbsp;This repo contains questions and exercises to learn and practice Python
 
-:bar_chart: &nbsp;There are currently **70** exercises and questions
+:bar_chart: &nbsp;There are currently **80** exercises and questions
 
 # Python Exercises
 
@@ -79,10 +79,17 @@
 | Access List Items | [Exercise](exercises/hello_world/access_list_items.md) | [Solution](solutions/hello_world/access_list_items.md) | |
 | Equal Lists | [Exercise](exercises/lists/equal_lists.md) | [Solution](solutions/lists/equal_lists.md) | |
 | Length | [Exercise](exercises/hello_world/length.md) | | |
+| Append & Insert | [Exercise](exercises/lists/append_and_insert.md) | [Solution](solutions/lists/append_and_insert.md) | |
 | Min Max | [Exercise](exercises/lists/min_max.md) | [Solution](solutions/lists/min_max.md) | |
 | Three Biggest Items | [Exercise](exercises/lists/three_biggest_items.md) | [Solution](solutions/lists/three_biggest_items.md) | |
 | What is the result? - Level 1 | [Exercise](exercises/lists/what_is_the_result_lvl_1.md) | [Solution](solutions/lists/what_is_the_result_lvl_1.md) | |
 | What is the result? - Level 2 | [Exercise](exercises/lists/what_is_the_result_lvl_2.md) | [Solution](solutions/lists/what_is_the_result_lvl_2.md) | |
+
+## Dictionaries
+
+|Name|Objective & Instructions|Solution|Comments|
+|--------|--------|------|----|
+| Facts Only | [Exercise](exercises/dicts/facts_only.md) | [Solution](solutions/dict/facts_only.md) | |
 
 ## Loops
 
@@ -163,6 +170,15 @@
 | If True | [Exercise](exercises/improve_the_code/if_true.md) | [Solution](solutions/improve_the_code/if_true.md) | |
 | Walrus | [Exercise](exercises/improve_the_code/walrus.md) | [Solution](solutions/improve_the_code/walrus.md) | |
 | Vowel Letters | [Exercise](exercises/improve_the_code/vowel_letters.md) | [Solution](solutions/improve_the_code/vowel_letters.md) | |
+
+## Type Hinting
+
+|Name|Objective & Instructions|Solution|Comments|
+|--------|--------|------|----|
+| Type Hinting Facts Only | [Exercise](exercises/type_hinting/facts_only.md) | [Solution](solutions/type_hinting/facts_only.md) | |
+| Pros & Cons | [Exercise](exercises/type_hinting/pros_and_cons.md) | [Solution](solutions/type_hinting/pros_and_cons.md) | |
+| Type Hinting 101 | [Exercise](exercises/type_hinting/type_hinting_101.md) | [Solution](solutions/type_hinting/type_hinting_101.md) | |
+| Type Hinting 102 | [Exercise](exercises/type_hinting/type_hinting_102.md) | [Solution](solutions/type_hinting/type_hinting_102.md) | |
 
 ## Misc
 

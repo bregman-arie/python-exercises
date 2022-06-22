@@ -1,4 +1,4 @@
-## Attributes
+## Attributes - Solution
 
 Explain class attributes vs. instance attributes
 
