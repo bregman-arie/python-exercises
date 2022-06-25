@@ -3,6 +3,7 @@
 from collections import namedtuple
 import timeit
 
+
 def before_refactor():
 
     Mushroom = namedtuple('Mushroom', ['name', 'poisonous'])
@@ -14,7 +15,8 @@ def before_refactor():
     for mushroom in mushrooms:
         i += 1
         name = mushroom.name
-        print('%d:"%s"'%(i, name))
+        print('%d:"%s"' % (i, name))
+
 
 def after_refactor():  # <- Solution is here! :)
 
@@ -26,7 +28,12 @@ def after_refactor():  # <- Solution is here! :)
     for i, mushroom in enumerate(mushrooms):
         i += 1
         name = mushroom.name
-        print('%d:"%s"'%(i, name))
+        print('%d:"%s"' % (i, name))
 
-print(timeit.timeit("before_refactor()", setup="from __main__ import before_refactor", number=100))
-print(timeit.timeit("after_refactor()", setup="from __main__ import after_refactor", number=100))
+
+print(timeit.timeit(
+    "before_refactor()",
+    setup="from __main__ import before_refactor", number=100))
+print(timeit.timeit(
+    "after_refactor()",
+    setup="from __main__ import after_refactor", number=100))

@@ -2,19 +2,48 @@
 
 :information_source: &nbsp;This repo contains questions and exercises to learn and practice Python
 
-:bar_chart: &nbsp;There are currently **80** exercises and questions
+:bar_chart: &nbsp;There are currently **77** exercises and questions
 
-# Python Exercises
+* Exercises
+    * [Hello World](#exercises-hello-world)
+    * [Objects & Data Types](#exercises-objects)
+    * [Variables](#exercises-variables)
+    * [Booleans](#exercisese-booleans)
+    * [Strings](#exercisese-strings)
+    * [Numbers](#exercisese-numbers)
+    * [Lists and Tuples](#exercisese-lists)
+    * [Dictionaries](#exercises-dictionaries)
+    * [Loops](#exercises-loops)
+    * [Functions](#exercises-loops)
+    * [Classes](#exercises-classes)
+    * [OOP](#exercises-oop)
+* Questions
+    * [Hello World](#questions-hello-world)
+    * [Objects & Data Types](#questions-objects)
+    * [Variables](#questions-variables)
+    * [Booleans](#questions-booleans)
+    * [Strings](#questions-strings)
+    * [Numbers](#questions-numbers)
+    * [Lists and Tuples](#questions-lists)
+    * [Dictionaries](#questions-dictionaries)
+    * [Loops](#questions-loops)
+    * [Functions](#questions-loops)
+    * [Classes](#questions-classes)
+    * [OOP](#questions-oop)
 
+# Exercises
+
+<a name="exercises-hello-world"></a>
 ## Hello World
 
 |Name|Objective & Instructions|Solution|Comments|
 |--------|--------|------|----|
-| Hello World! | [Exercise](exercises/hello_world/hello_world.md) | | |
+| Hello World! | [Exercise](exercises/hello_world/hello_world.md) | Solution](solutions/hello_world/hello_world.md | |
 | Python Characteristics | [Exercise](exercises/hello_world/python_characteristics.md) | [Solution](solutions/hello_world/python_characteristics.md) | |
 | What is the result? - Level 1 | [Exercise](exercises/hello_world/what_is_the_result_lvl_1.md) | [Solution](solutions/hello_world/what_is_the_result_lvl_1.md) | |
 | What is the result? - Level 2 | [Exercise](exercises/hello_world/what_is_the_result_lvl_2.md) | | |
 
+<a name="exercises-objects"></a>
 ## Objects & Data Types
 
 |Name|Objective & Instructions|Solution|Comments|
@@ -27,6 +56,7 @@
 | Strongly Typed | [Exercise](exercises/data_types/strongly_typed.md) | [Solution](solutions/data_types/strongly_typed.md) | |
 | Object Creation | [Exercise](exercises/data_types/object_creation.md) | [Solution](solutions/data_types/object_creation.md) | |
 
+<a name="exercises-variables"></a>
 ## Variables
 
 |Name|Objective & Instructions|Solution|Comments|
@@ -38,6 +68,7 @@
 | Copying Variables | [Exercise](exercises/variables/copying_variables.md) | [Solution](solutions/variables/copying_variables.md) | |
 | Mutable Objects | [Exercise](exercises/variables/mutable_objects.md) | [Solution](solutions/variables/mutable_objects.md) | |
 
+<a name="exercises-booleans"></a>
 ## Booleans
 
 |Name|Objective & Instructions|Solution|Comments|
@@ -45,6 +76,7 @@
 | True or False? | [Exercise](exercises/booleans/true_or_false.md) | [Solution](solutions/booleans/true_or_false.md) | |
 | Conversion | [Exercise](exercises/booleans/conversion.md) | [Solution](solutions/booleans/conversion.md) | |
 
+<a name="exercises-strings"></a>
 ## Strings
 
 |Name|Objective & Instructions|Solution|Comments|
@@ -62,6 +94,7 @@
 | Slicing - Level 1 | [Exercise](exercises/strings/slicing_lvl_1.md) | [Solution](solutions/strings/slicing_lvl_1.md) | |
 | Slicing - Level 2 | [Exercise](exercises/strings/slicing_lvl_2.md) | [Solution](solutions/strings/slicing_lvl_2.md) | |
 
+<a name="exercises-numbers"></a>
 ## Numbers
 
 |Name|Objective & Instructions|Solution|Comments|
@@ -72,6 +105,7 @@
 | Bases | [Exercise](exercises/numbers/bases.md) | [Solution](solutions/numbers/bases.md) | |
 | Palindrome | [Exercise](exercises/numbers/palindrome.md) | [Solution](solutions/numbers/palindrome.md) | |
 
+<a name="exercises-lists"></a>
 ## Lists & Tuples
 
 |Name|Objective & Instructions|Solution|Comments|
@@ -85,12 +119,14 @@
 | What is the result? - Level 1 | [Exercise](exercises/lists/what_is_the_result_lvl_1.md) | [Solution](solutions/lists/what_is_the_result_lvl_1.md) | |
 | What is the result? - Level 2 | [Exercise](exercises/lists/what_is_the_result_lvl_2.md) | [Solution](solutions/lists/what_is_the_result_lvl_2.md) | |
 
+<a name="exercises-dictionaries"></a>
 ## Dictionaries
 
 |Name|Objective & Instructions|Solution|Comments|
 |--------|--------|------|----|
 | Facts Only | [Exercise](exercises/dicts/facts_only.md) | [Solution](solutions/dict/facts_only.md) | |
 
+<a name="exercises-loops"></a>
 ## Loops
 
 |Name|Objective & Instructions|Solution|Comments|
@@ -101,6 +137,7 @@
 | Stream of Numbers | [Exercise](exercises/loops/numbers_stream.md) | [Solution](solutions/loops/numbers_stream.md) | |
 | Refactor-1 | [Exercise](exercises/loops/refactor_1.md) | [Solution](solutions/loops/refactor_1.py) | |
 
+<a name="exercises-functions"></a>
 ## Functions
 
 |Name|Objective & Instructions|Solution|Comments|
@@ -109,17 +146,20 @@
 | Calculator | [Exercise](exercises/functions/calculator.md) | [Solution](solutions/functions/calculator.md) | |
 | First Class Objects | [Exercise](exercises/functions/first_class_objects.md) | [Solution](solutions/functions/first_class_objects.md) | |
 
+<a name="exercises-classes"></a>
+## Classes
+
+|Name|Objective & Instructions|Solution|Comments|
+|--------|--------|------|----|
+| Classes 101 | [Exercise](exercises/classes/101.md) | [Solution](solutions/classes/101.md) | |
+| Attributes  | [Exercise](exercises/classes/attributes.md) | [Solution](solutions/classes/attributes.md) | |
+
+<a name="exercises-oop"></a>
 ## OOP
 
 |Name|Objective & Instructions|Solution|Comments|
 |--------|--------|------|----|
 | Inheritance | [Exercise](exercises/oop/inheritance.md) | [Solution](solutions/oop/inheritance.md) | |
-
-## Classes
-
-|Name|Objective & Instructions|Solution|Comments|
-|--------|--------|------|----|
-| Attributes | [Exercise](exercises/classes/attributes.md) | [Solution](solutions/classes/attributes.md) | |
  
 ## Magic Methods
 
@@ -186,3 +226,38 @@
 |--------|--------|------|----|
 | Random Number | [Exercise](exercises/misc/random_number.md) | | |
 | Random Item | [Exercise](exercises/misc/random_item.md) | | |
+
+# Questions
+
+<a name="questions-hello-world"></a>
+## Hello World
+
+<details>
+<summary>How to print "Hello World"?</summary><br><b>
+
+`print("Hello World")`
+</b></details>
+
+<a name="questions-classes"></a>
+## Classes
+
+<details>
+<summary>Define a class that does nothing</summary><br><b>
+
+```python
+class SomeClass:
+    pass
+```
+</b></details>
+
+<details>
+<summary>True or False? If <code>c</code> is an instance of a class, then in <code>c.x = 1</code>, <code>x</code> is a variable of the value 1</summary><br><b>
+
+False. `x` is an attribute in the case `c.x = 1`
+</b></details>
+
+<details>
+<summary>True or False? Every object in Python has attributes</summary><br><b>
+
+True. You can think on attributes as private dictionaries but instead of accessing them with `[]` or `.get`, they are accessed by using a dot.
+</b></details>

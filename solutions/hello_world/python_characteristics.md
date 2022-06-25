@@ -1,6 +1,11 @@
-## Python Characteristics
+## Python Characteristics - Solution
+
+## Objectives
 
 1. What are some characteristics of the Python programming language?
+2. What type of applications use Python?
+
+## Solution
 
 1. 
 
@@ -11,3 +16,5 @@
 * The python package manager is called PIP "pip installs packages", having more than 200.000 available packages.
 * Python comes with pip installed and a big standard library that offers the programmer many precooked solutions.
 * In python **Everything** is an object.
+
+2. Web, Gaming, Machine Learning, Web Scrapers, Data (visualization, analytics) and more

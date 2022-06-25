@@ -10,4 +10,7 @@ Hello
   World
 ```
 
-Click [here to view the solution](../../solutions/hello_world.md)
+## Solution
+
+1. print("Hello World!")
+2. print("Hello\n  World!")
