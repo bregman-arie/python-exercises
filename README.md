@@ -2,34 +2,36 @@
 
 :information_source: &nbsp;This repo contains questions and exercises to learn and practice Python
 
-:bar_chart: &nbsp;There are currently **77** exercises and questions
+:bar_chart: &nbsp;There are currently **86** exercises and questions
 
-* Exercises
-    * [Hello World](#exercises-hello-world)
-    * [Objects & Data Types](#exercises-objects)
-    * [Variables](#exercises-variables)
-    * [Booleans](#exercisese-booleans)
-    * [Strings](#exercisese-strings)
-    * [Numbers](#exercisese-numbers)
-    * [Lists and Tuples](#exercisese-lists)
-    * [Dictionaries](#exercises-dictionaries)
-    * [Loops](#exercises-loops)
-    * [Functions](#exercises-loops)
-    * [Classes](#exercises-classes)
-    * [OOP](#exercises-oop)
-* Questions
-    * [Hello World](#questions-hello-world)
-    * [Objects & Data Types](#questions-objects)
-    * [Variables](#questions-variables)
-    * [Booleans](#questions-booleans)
-    * [Strings](#questions-strings)
-    * [Numbers](#questions-numbers)
-    * [Lists and Tuples](#questions-lists)
-    * [Dictionaries](#questions-dictionaries)
-    * [Loops](#questions-loops)
-    * [Functions](#questions-loops)
-    * [Classes](#questions-classes)
-    * [OOP](#questions-oop)
+- [Exercises](#exercises)
+  - [Hello World](#hello-world)
+  - [Objects & Data Types](#objects--data-types)
+  - [Variables](#variables)
+  - [Booleans](#booleans)
+  - [Strings](#strings)
+  - [Numbers](#numbers)
+  - [Lists & Tuples](#lists--tuples)
+  - [Dictionaries](#dictionaries)
+  - [Loops](#loops)
+  - [Functions](#functions)
+  - [Classes](#classes)
+  - [OOP](#oop)
+  - [Magic Methods](#magic-methods)
+  - [Unit Testing](#unit-testing)
+  - [Exceptions](#exceptions)
+  - [Regex](#regex)
+  - [Files](#files)
+  - [Operating Systems](#operating-systems)
+  - [Improve the Code](#improve-the-code)
+  - [Type Hinting](#type-hinting)
+  - [Misc](#misc)
+- [Questions](#questions)
+  - [Hello World](#hello-world-1)
+  - [Classes](#classes-1)
+  - [Strings](#strings-1)
+  - [Lists](#lists)
+
 
 # Exercises
 
@@ -118,6 +120,7 @@
 | Three Biggest Items | [Exercise](exercises/lists/three_biggest_items.md) | [Solution](solutions/lists/three_biggest_items.md) | |
 | What is the result? - Level 1 | [Exercise](exercises/lists/what_is_the_result_lvl_1.md) | [Solution](solutions/lists/what_is_the_result_lvl_1.md) | |
 | What is the result? - Level 2 | [Exercise](exercises/lists/what_is_the_result_lvl_2.md) | [Solution](solutions/lists/what_is_the_result_lvl_2.md) | |
+| Running Sum | [Exercise](exercises/lists/running_sum/exercise.md) | [Solution](solutions/lists/running_sum/solution.py) | |
 
 <a name="exercises-dictionaries"></a>
 ## Dictionaries
@@ -152,7 +155,8 @@
 |Name|Objective & Instructions|Solution|Comments|
 |--------|--------|------|----|
 | Classes 101 | [Exercise](exercises/classes/101.md) | [Solution](solutions/classes/101.md) | |
-| Attributes  | [Exercise](exercises/classes/attributes.md) | [Solution](solutions/classes/attributes.md) | |
+| Attributes  | [Exercise](exercises/classes/attributes/exercise.md) | [Solution](exercises/classes/attributes/solution.md) | |
+| Print Order | [Exercise](exercises/classes/print_order/exercise.md) | [Solution](exercises/classes/print_order/solution.md)
 
 <a name="exercises-oop"></a>
 ## OOP
@@ -178,9 +182,9 @@
 
 |Name|Objective & Instructions|Solution|Comments|
 |--------|--------|------|----|
-| Dividing by Zero | [Exercise](exercises/exceptions/divide_by_zero.md) | [Solution](solutions/exceptions/divide_by_zero.md) | |
 | What exception is raised? - Level 1 | [Exercise](exercises/exceptions/what_exception_is_raised_lvl_1.md) | [Solution](solutions/exceptions/what_exception_is_raised_lvl_1.md) | |
 | What exception is raised? - Level 2 | [Exercise](exercises/exceptions/what_exception_is_raised_lvl_2.md) | [Solution](solutions/exceptions/what_exception_is_raised_lvl_2.md) | |
+| Bound To It | [Exercise](exercises/exceptions/bound_to_it/exercise.md) | [Solution](exercises/exceptions/bound_to_it/solution.md)
 
 ## Regex
 
@@ -260,4 +264,30 @@ False. `x` is an attribute in the case `c.x = 1`
 <summary>True or False? Every object in Python has attributes</summary><br><b>
 
 True. You can think on attributes as private dictionaries but instead of accessing them with `[]` or `.get`, they are accessed by using a dot.
+</b></details>
+
+<details>
+<summary>True or False? As opposed to variables, attributes can't contain any Python object, only several selected types</summary><br><b>
+
+False. Like variables, attributes can contain any Python object.
+</b></details>
+
+## Strings
+
+<details>
+<summary>How to convert <code>"2 0 1 7"</code> to the list <code>[2, 0, 1, 7]</code>?</summary><br><b>
+
+```python
+[int(i) for in in "2 0 1 7".split()]
+```
+</b></details>
+
+## Lists
+
+<details>
+<summary>How to remove duplicates from a given list?</summary><br><b>
+
+```python
+
+```
 </b></details>
