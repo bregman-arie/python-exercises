@@ -14,4 +14,4 @@ if x == False:
 
 ### Solution
 
-Click [here](solutions/improve_the_code/if_true.md) to view the solution
+Click [here](../../solutions/improve_the_code/if_true.md) to view the solution
