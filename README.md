@@ -95,9 +95,9 @@
 | Compress Strings | [Exercise](exercises/strings/compress_strings.md) | | |
 | Slicing - Level 1 | [Exercise](exercises/strings/slicing_lvl_1.md) | [Solution](solutions/strings/slicing_lvl_1.md) | |
 | Slicing - Level 2 | [Exercise](exercises/strings/slicing_lvl_2.md) | [Solution](solutions/strings/slicing_lvl_2.md) | |
-| Swap-Case | [Exercise](exercises/swap_case/exercise.md) | [Solution](solutions/swap_case/solution.py) | HackerRank |
-| Count Substring | [Exercise](exercises/count_substring/exercise.md) | [Solution](solutions/count_substring/solution.py) | HackerRank |
-| Capitalize! | [Exercise](exercises/capitalize/exercise.md) | [Solution](solutions/capitalize/solution.py) | HackerRank |
+| Swap Case | [Exercise](exercises/swap_case/exercise.md) | [Solution](exercises/swap_case/solution.py) | HackerRank |
+| Count Substring | [Exercise](exercises/count_substring/exercise.md) | [Solution](exercises/count_substring/solution.py) | HackerRank |
+| Capitalize! | [Exercise](exercises/capitalize/exercise.md) | [Solution](exercises/capitalize/solution.py) | HackerRank |
 
 <a name="exercises-numbers"></a>
 ## Numbers
@@ -124,7 +124,7 @@
 | What is the result? - Level 1 | [Exercise](exercises/lists/what_is_the_result_lvl_1.md) | [Solution](solutions/lists/what_is_the_result_lvl_1.md) | |
 | What is the result? - Level 2 | [Exercise](exercises/lists/what_is_the_result_lvl_2.md) | [Solution](solutions/lists/what_is_the_result_lvl_2.md) | |
 | Running Sum | [Exercise](exercises/lists/running_sum/exercise.md) | [Solution](solutions/lists/running_sum/solution.py) | |
-| Remove Duplicates from Sorted List | [Exercise](exercises/lists/remove_duplicates/exercise.md) | [Solution](solutions/lists/remove_duplicates/solution.py) | LeetCode |
+| Remove Duplicates from Sorted List | [Exercise](exercises/lists/remove_duplicates/exercise.md) | [Solution](exercises/lists/remove_duplicates/solution.py) | LeetCode |
 | Find the Runner-Up Score! | [Exercise](exercises/lists/find_the_runner_up_score/exercise.md) | [Solution](solutions/lists/find_the_runner_up_score/solution.py) | HackerRank |
 | Nested Lists | [Exercise](exercises/lists/nested_lists/exercise.md) | [Solution](solutions/lists/nested_lists/solution.py) | HackerRank |
 

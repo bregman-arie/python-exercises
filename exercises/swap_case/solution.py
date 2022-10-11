@@ -2,13 +2,7 @@
 # coding=utf-8
 
 def swap_case(s):
-    string = ""
-    for c in s:
-        if c == c.upper():
-            string += c.lower()
-        else:
-            string += c.upper()
-    return string
+    return ''.join([i.lower() if i.isupper() else i.upper() for i in s])
 
 if __name__ == '__main__':
     s = input()
