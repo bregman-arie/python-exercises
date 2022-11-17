@@ -241,9 +241,9 @@
 
 ## Lambda
 
-|Name|Objective & Instructions|Solution|Comments|
+|Name|Objective & Instructions|Solution||
 |--------|--------|------|----|
-| Multiply the arguments and return the result | [Exercise](exercises/Lambda/Exe1.md) | [Soluntion](solutions/lambda/soluntion1.md) | |
+| Multiply the arguments and return the result | [Exercise](exercises/Lambda/Exe1.md) | [Solution](solutions/lambda/soluntion1.md) | |
 | Write a python program to generate a function to double a specified number. | [Exercise](exercises/Lambda/Exe2.md) | [Solution](solutions/lambda/solution2.md) | | |
 
 # Questions
