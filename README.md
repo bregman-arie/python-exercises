@@ -26,6 +26,7 @@
   - [Improve the Code](#improve-the-code)
   - [Type Hinting](#type-hinting)
   - [Misc](#misc)
+  - [Lambda](#Lambda)
 - [Questions](#questions)
   - [Hello World](#hello-world-1)
   - [Classes](#classes-1)
@@ -236,6 +237,14 @@
 |--------|--------|------|----|
 | Random Number | [Exercise](exercises/misc/random_number.md) | | |
 | Random Item | [Exercise](exercises/misc/random_item.md) | | |
+
+
+## Lambda
+
+|Name|Objective & Instructions|Solution|Comments|
+|--------|--------|------|----|
+| Multiply the arguments and return the result | [Exercise](exercises/misc/random_number.md) | | |
+| Write a python program to generate a function to double a specified number. | [Exercise](exercises/misc/random_item.md) | | |
 
 # Questions
 
