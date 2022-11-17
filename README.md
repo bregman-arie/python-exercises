@@ -243,8 +243,8 @@
 
 |Name|Objective & Instructions|Solution|Comments|
 |--------|--------|------|----|
-| Multiply the arguments and return the result | [Exercise](exercises/lambda/exe1.md) | [Soluntion](solutions/lambda/soluntion1.md) | |
-| Write a python program to generate a function to double a specified number. | [Exercise](exercises/lambda/exe2.md) | [Solution](solutions/lambda/soluntion2.md) | | |
+| Multiply the arguments and return the result | [Exercise](exercises/lambda/Exe1.md) | [Soluntion](solutions/lambda/soluntion1.md) | |
+| Write a python program to generate a function to double a specified number. | [Exercise](exercises/lambda/Exe2.md) | [Solution](solutions/lambda/solution2.md) | | |
 
 # Questions
 
