@@ -237,6 +237,13 @@
 | Random Number | [Exercise](exercises/misc/random_number.md) | | |
 | Random Item | [Exercise](exercises/misc/random_item.md) | | |
 
+## Lambda
+
+|Name|Objective & Instructions|Solution||
+|--------|--------|------|----|
+| Multiply the arguments and return the result | [Exercise](exercises/Lambda/Exe1.md) | [Solution](solutions/lambda/soluntion1.md) | |
+| Write a python program to generate a function to double a specified number. | [Exercise](exercises/Lambda/Exe2.md) | [Solution](solutions/lambda/solution2.md) | | |
+
 # Questions
 
 <a name="questions-hello-world"></a>
