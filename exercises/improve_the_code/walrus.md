@@ -11,4 +11,4 @@ if y == 30:
 
 ### Solution
 
-Click [here](solutions/improve_the_code/walrus.md) to view the solution
+Click [here](../../solutions/improve_the_code/walrus.md) to view the solution
