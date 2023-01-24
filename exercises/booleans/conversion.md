@@ -11,4 +11,4 @@ What is the result of each of the following statements?
 
 ## Solution
 
-Click [here](solutions/booleans/conversion.md) to view the solution
+Click [here](../../solutions/booleans/conversion.md) to view the solution
