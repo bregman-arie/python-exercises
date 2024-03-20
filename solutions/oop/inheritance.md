@@ -13,13 +13,15 @@ Class A would be the 'Base class' and B class would be the 'derived class'.
 This comes handy when you have several classes that share the same functionalities.
 
 The basic syntax is:
+```python
+class Base:
+    pass
 
-class Base: pass
-
-class Derived(Base): pass
-
+class Derived(Base):
+    pass
+```
 A more forged example:
-
+```python
 class Animal:
     def __init__(self):
         print("and I'm alive!")
@@ -51,7 +53,9 @@ michael.write_poem()
 bruno = Dog('Bruno')
 bruno.eat('bone')
 bruno.bark()
-
+```
+#### Output
+```
 >>> My name is  Michael
 >>> and I'm alive!
 >>> ñom ñom ñom Spam
@@ -60,7 +64,7 @@ bruno.bark()
 >>> and I'm alive!
 >>> ñom ñom ñom bone
 >>> woof woof
-
-Calling super() calls the Base method, thus, calling super().__init__() we called the Animal __init__.
+```
+Calling super() calls the Base method, thus, calling `super().__init__()` we called the Animal \_\_init__.
 
 There is a more advanced python feature called MetaClasses that aid the programmer to directly control class creation.
