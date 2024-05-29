@@ -10,4 +10,4 @@ Hello
   World
 ```
 
-Click [here to view the solution](../../solutions/hello_world.md)
+Click [here to view the solution](../../solutions/hello_world/hello_world.md)
