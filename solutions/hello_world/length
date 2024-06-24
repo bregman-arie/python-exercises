@@ -1,0 +1,42 @@
+## Length
+
+1. How to print the length of the string 'abcd' ?
+2. How to print the length of the variable x (x is the list [5, 30 ,2]) ?
+3. What would be the length of following dictionary {'x': 3, 'y': 3} ?
+4. What would be the length of the tuple ('x', 'y') ?
+
+## Solution
+
+1. To print the length of the string 'abcd', you can use the len() function in Python:
+  
+  string = 'abcd'
+  print(len(string))
+  
+  Output:
+  4
+  
+2. To print the length of the variable x, which is a list [5, 30, 2], you can also use the len() function:
+   
+   x = [5, 30, 2]
+   print(len(x))
+   
+   Output:
+   3
+
+3.  The length of a dictionary represents the number of key-value pairs it contains. In this case, the dictionary {'x': 3, 'y': 3} has two key-value pairs.
+    To determine its length, you can use the len() function:
+    
+    dictionary = {'x': 3, 'y': 3}
+    print(len(dictionary))
+    
+    Output:
+    2
+  
+4.  The length of a tuple represents the number of elements it contains. In this case, the tuple ('x', 'y') has two elements. 
+    You can use the len() function to obtain its length:
+    
+    tuple_var = ('x', 'y')
+    print(len(tuple_var))
+    
+    Output:
+    2
