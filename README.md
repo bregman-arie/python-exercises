@@ -1,17 +1,19 @@
 <p align="center"><img src="images/python_exercises.png"/></p>
 
+
 :information_source: &nbsp;This repo contains questions and exercises to learn and practice Python
 
 :bar_chart: &nbsp;There are currently **231** exercises and questions
 
+- [Free App for Learning Python](#free-app-for-learning-python)
 - [Exercises](#exercises)
   - [Hello World](#hello-world)
-  - [Objects & Data Types](#objects--data-types)
+  - [Objects \& Data Types](#objects--data-types)
   - [Variables](#variables)
   - [Booleans](#booleans)
   - [Strings](#strings)
   - [Numbers](#numbers)
-  - [Lists & Tuples](#lists--tuples)
+  - [Lists \& Tuples](#lists--tuples)
   - [Dictionaries](#dictionaries)
   - [Loops](#loops)
   - [Functions](#functions)
@@ -26,12 +28,41 @@
   - [Improve the Code](#improve-the-code)
   - [Type Hinting](#type-hinting)
   - [Misc](#misc)
+  - [Lambda](#lambda)
 - [Questions](#questions)
   - [Hello World](#hello-world-1)
+  - [Conditionals](#conditionals)
+  - [Loops](#loops-1)
   - [Classes](#classes-1)
   - [Strings](#strings-1)
   - [Lists](#lists)
+      - [Python - OOP](#python---oop)
+      - [Python - Exceptions](#python---exceptions)
+      - [Python Built-in functions](#python-built-in-functions)
+      - [Properties](#properties)
+      - [Python - Lists](#python---lists)
+      - [Python - Dictionaries](#python---dictionaries)
+        - [Common Algorithms Implementation](#common-algorithms-implementation)
+      - [Python Files](#python-files)
+      - [Python OS](#python-os)
+      - [Python Regex](#python-regex)
+      - [Python Strings](#python-strings)
+      - [Python Iterators](#python-iterators)
+      - [Python Misc](#python-misc)
+      - [Python - Slicing](#python---slicing)
+      - [Python Debugging](#python-debugging)
+      - [Python - Linked List](#python---linked-list)
+      - [Python - Stack](#python---stack)
+      - [Python Testing](#python-testing)
+      - [Flask](#flask)
 
+# Free App for Learning Python
+
+<p align="center">
+  <a href="https://play.google.com/store/apps/details?id=com.codingshell.python_hero" target="_blank">
+    <img src="images/python_hero.png"/>
+  </a>
+</p>
 
 # Exercises
 
@@ -1614,332 +1645,3 @@ def home():
 
 app.add_url_rule('/', view_func=home)
 ```
-
-</b></details>
-
-<details>
-<summary>What is a blueprint in Flask?</summary><br><b>
-</b></details>
-
-<details>
-<summary>What is a template?</summary><br><b>
-</b></details>
-
-#### zip
-
-<details>
-<summary>Given <code>x = [1, 2, 3]</code>, what is the result of list(zip(x))?</summary><br><b>
-
-```
-[(1,), (2,), (3,)]
-```
-</b></details>
-
-<details>
-<summary>What is the result of each of the following:
-
-```
-list(zip(range(5), range(50), range(50)))
-list(zip(range(5), range(50), range(-2)))
-```
-</summary><br><b>
-
-```
-[(0, 0, 0), (1, 1, 1), (2, 2, 2), (3, 3, 3), (4, 4, 4)]
-[]
-```
-</b></details>
-
-#### Python Descriptors
-
-<details>
-<summary>Explain Descriptors</summary><br><b>
-
-Read about descriptors [here](https://docs.python.org/3/howto/descriptor.html)
-</b></details>
-
-<details>
-<summary>What would be the result of running <code>a.num2</code> assuming the following code
-
-```
-class B:
-    def __get__(self, obj, objtype=None):
-        reuturn 10
-
-class A:
-    num1 = 2
-    num2 = Five()
-```
-</summary><br><b>
-10
-</b></details>
-
-<details>
-<summary>What would be the result of running <code>some_car = Car("Red", 4)</code> assuming the following code
-
-```
-class Print:
-
-    def __get__(self, obj, objtype=None):
-        value = obj._color
-        print("Color was set to {}".format(valie))
-        return value
-
-    def __set__(self, obj, value):
-        print("The color of the car is {}".format(value))
-        obj._color = value
-
-class Car:
-
-    color = Print()
-
-    def __ini__(self, color, age):
-        self.color = color
-        self.age = age
-```
-</summary><br><b>
-An instance of Car class will be created and the following will be printed: "The color of the car is Red"
-</b></details>
-
-#### Python Misc
-
-<details>
-<summary>How can you spawn multiple processes with Python?</summary><br><b>
-</b></details>
-
-<details>
-<summary>Implement simple calculator for two numbers</summary><br><b>
-
-```
-def add(num1, num2):
-    return num1 + num2
-
-
-def sub(num1, num2):
-    return num1 - num2
-
-
-def mul(num1, num2):
-    return num1*num2
-
-
-def div(num1, num2):
-    return num1 / num2
-
-operators = {
-    '+': add,
-    '-': sub,
-    '*': mul,
-    '/': div
-}
-
-if __name__ == '__main__':
-    operator = str(input("Operator: "))
-    num1 = int(input("1st number: "))
-    num2 = int(input("2nd number: "))
-    print(operators[operator](num1, num2))
-```
-</b></details>
-
-<details>
-<summary>What data types are you familiar with that are not Python built-in types but still provided by modules which are part of the standard library?</summary><br><b>
-
-This is a good reference https://docs.python.org/3/library/datatypes.html
-</b></details>
-
-<details>
-<summary>Explain what is a decorator</summary><br><b>
-</b>
-<b>In python, everything is an object, even functions themselves. Therefore you could pass functions as arguments
-for another function eg;
-
-```
-def wee(word):
-    return word
-
-def oh(f):
-    return f + "Ohh"
-
->>> oh(wee("Wee"))
-<<< Wee Ohh
-```
-
-This allows us to control the before execution of any given function and if we added another function as wrapper,
-(a function receiving another function that receives a function as parameter) we could also control the after execution.
-
-Sometimes we want to control the before-after execution of many functions and it would get tedious to write
-
-<code> f = function(function_1())</code>
-<code> f = function(function_1(function_2(*args)))</code>
-
-every time, that's what decorators do, they introduce syntax to write all of this on the go, using the keyword '@'.
-</b>
-</details>
-
-<details>
-<summary>Can you show how to write and use decorators?</summary><br><b>
-
-<code>
-These two decorators (ntimes and timer) are usually used to display decorators functionalities, you can find them in lots of
-tutorials/reviews. I first saw these examples two years ago in pyData 2017. https://www.youtube.com/watch?v=7lmCu8wz8ro&t=3731s</code>
-
-```
-Simple decorator:
-
-def deco(f):
-    print(f"Hi I am the {f.__name__}() function!")
-    return f
-
-@deco
-def hello_world():
-    return "Hi, I'm in!"
-
-a = hello_world()
-print(a)
-
->>> Hi I am the hello_world() function!
-    Hi, I'm in!
-```
-
-This is the simplest decorator version, it basically saves us from writting <code>a = deco(hello_world())</code>.
-But at this point we can only control the before execution, let's take on the after:
-
-```
-def deco(f):
-    def wrapper(*args, **kwargs):
-        print("Rick Sanchez!")
-        func = f(*args, **kwargs)
-        print("I'm in!")
-        return func
-    return wrapper
-
-@deco
-def f(word):
-    print(word)
-
-a = f("************")
->>> Rick Sanchez!
-    ************
-    I'm in!
-```
-
-deco receives a function -> f
-wrapper receives the arguments -> *args, **kwargs
-
-wrapper returns the function plus the arguments -> f(*args, **kwargs)
-deco returns wrapper.
-
-As you can see we conveniently do things before and after the execution of a given function.
-
-For example, we could write a decorator that calculates the execution time of a function.
-
-```
-import time
-def deco(f):
-    def wrapper(*args, **kwargs):
-        before = time.time()
-        func = f(*args, **kwargs)
-        after = time.time()
-        print(after-before)
-        return func
-    return wrapper
-
-@deco
-def f():
-    time.sleep(2)
-    print("************")
-
-a = f()
->>> 2.0008859634399414
-```
-
-Or create a decorator that executes a function n times.
-
-```
-def n_times(n):
-    def wrapper(f):
-        def inner(*args, **kwargs):
-            for _ in range(n):
-                func = f(*args, **kwargs)
-            return func
-        return inner
-    return wrapper
-
-@n_times(4)
-def f():
-    print("************")
-
-a = f()
-
->>>************
-   ************
-   ************
-   ************
-```
-
-</b></details>
-
-<details>
-<summary>Write a decorator that calculates the execution time of a function</summary><br><b>
-</b></details>
-
-<details>
-<summary>Write a script which will determine if a given host is accessible on a given port</summary><br><b>
-</b></details>
-
-<details>
-<summary>Are you familiar with Dataclasses? Can you explain what are they used for?</summary><br><b>
-</b></details>
-
-<details>
-<summary>You wrote a class to represent a car. How would you compare two cars instances if two cars are equal if they have the same model and color?</summary><br><b>
-
-```
-class Car:
-    def __init__(self, model, color):
-        self.model = model
-        self.color = color
-
-    def __eq__(self, other):
-        if not isinstance(other, Car):
-            return NotImplemented
-        return self.model == other.model and self.color == other.color
-
->> a = Car('model_1', 'red')
->> b = Car('model_2', 'green')
->> c = Car('model_1', 'red')
->> a == b
-False
->> a == c
-True
-```
-</b></details>
-
-<details>
-<summary>Explain Context Manager</summary><br><b>
-</b></details>
-
-<details>
-<summary>Tell me everything you know about concurrency in Python</summary><br><b>
-</b></details>
-
-<details>
-<summary>Explain the Buffer Protocol</summary><br><b>
-</b></details>
-
-<details>
-<summary>Do you have experience with web scraping? Can you describe what have you used and for what?</summary><br><b>
-</b></details>
-
-<details>
-<summary>Can you implement Linux's <code>tail</code> command in Python? Bonus: implement <code>head</code> as well</summary><br><b>
-</b></details>
-
-<details>
-<summary>You have created a web page where a user can upload a document. But the function which reads the uploaded files, runs for a long time, based on the document size and user has to wait for the read operation to complete before he/she can continue using the web site. How can you overcome this?</summary><br><b>
-</b></details>
-
-<details>
-<summary>How yield works exactly?</summary><br><b>
-</b></details>
-
