@@ -71,7 +71,7 @@
 
 |Name|Objective & Instructions|Solution|Comments|
 |--------|--------|------|----|
-| Hello World! | [Exercise](exercises/hello_world/hello_world.md) | Solution](solutions/hello_world/hello_world.md | |
+| Hello World! | [Exercise](exercises/hello_world/hello_world.md) | [Solution](solutions/hello_world/hello_world.md) | |
 | Python Characteristics | [Exercise](exercises/hello_world/python_characteristics.md) | [Solution](solutions/hello_world/python_characteristics.md) | |
 | What is the result? - Level 1 | [Exercise](exercises/hello_world/what_is_the_result_lvl_1.md) | [Solution](solutions/hello_world/what_is_the_result_lvl_1.md) | |
 | What is the result? - Level 2 | [Exercise](exercises/hello_world/what_is_the_result_lvl_2.md) | | |
